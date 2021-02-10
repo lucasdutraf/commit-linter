@@ -8,5 +8,6 @@ jobs:
     steps:
       - name: Check out code into the Go module directory
         uses: actions/checkout@v1
-      - name: Commitsar check
-        uses: aevea/commitsar@v0.11.0 (substitute for the current version)
+      - name: Commitsar Action
+        uses: aevea/commitsar@v0.15.0
+      
